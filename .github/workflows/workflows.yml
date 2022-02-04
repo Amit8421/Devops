@@ -30,7 +30,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run schemachange
         env:
-          SF_ACCOUNT: 'pua38233.us-west-2.aws'
+          SF_ACCOUNT: 'pua38233'
           SF_USERNAME: 'FIVETRAN8421'
           SF_ROLE: 'ACCOUNTADMIN'
           SF_WAREHOUSE: 'AD_TESTWH'
